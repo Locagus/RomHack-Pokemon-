@@ -1,0 +1,9 @@
+dynamic 0x800000(sirve para buscar espacio libre en la consola)
+lock
+faceplayer(sirve para cuando el personaje termine de hablar que se quede quieto)
+msgbox @texto (puedes poner lo que quieras en esta tarjeta dinamica)
+release
+end(el final del script)
+
+
+#org @texto (esto es la msgbox , no es la continuacion del script finalizado)                            
