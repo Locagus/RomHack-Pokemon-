@@ -1,0 +1,12 @@
+dynamic 0x800000
+#org @inicio
+lock
+faceplayer
+msgbox @texto
+givepokemon 0x(numero de pokemon en la pokedex) 0x(nivel del pokemon en numero hexadecimal) 0x(ID del objeto que quieres que lleve el pokemon que te den)
+release
+end
+
+
+#org @texto
+=toma mi pokemon!, ya no me gusta. (ejemplo)
